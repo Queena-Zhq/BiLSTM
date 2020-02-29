@@ -213,6 +213,7 @@ def glove_embedding(words_list,PATH):
         # print(vocabulary)
     return vocabulary
 
+# read config for BiLSTM 
 def get_Biconfig(PATH):
     config = configparser.ConfigParser()
     config.read(PATH)
